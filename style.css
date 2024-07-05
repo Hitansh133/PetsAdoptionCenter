@@ -1,0 +1,156 @@
+
+*{
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-heading{
+    font-size: 75px;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 20px;
+}
+img{
+    border-radius: 8px;
+    background-size: cover;
+  }
+h5{
+    font-family: "Montserrat", sans-serif;
+}  
+.alpha{
+border: 1px;
+border-style: solid;
+border-color: grey;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #ffa500 ;
+    flex-grow: 1;
+    justify-content: right;
+    align-content: space-evenly;
+  }
+  
+  .flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    align-self: auto;
+  }
+  
+.obj{
+  text-align: center;
+  max-width: 700px; /* Adjust the width as needed */
+  font-size: larger;
+  padding-left: 20px;
+  
+
+}  
+
+#ceo{
+  border-radius: 50%;
+  width: 400px;
+}
+#ceo_text{
+  
+    max-width: 500px; /* Adjust the width as needed */
+    /* Optional: Set margins for spacing */
+    margin: 40px;
+    
+  
+}
+#ceo_title{
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+
+
+}
+#obj-title{
+  padding-left: 20px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.address {
+  font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+#pets, #about_us, #care{
+  padding-top: 70px;
+}
+
+.hidden{
+  display: none;
+}
+
+#popup{
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  position:fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%)
+}
+
+#closePetPopUP{
+  /* Optional: Add a subtle border */
+  border: 1px solid white;
+   /* Style the button */
+   background-color: #3498db; /* Adjust button color to your preference */
+   color: white;
+   padding: 10px 20px; /* Adjust padding for button size */
+   border-radius: 5px; /* Add some rounded corners */
+   cursor: pointer; /* Indicate clickable element */
+}
+
+#closePetPopUP:hover {
+  background-color: #242731; /* Slightly lighter blue on hover */
+ 
+   
+  
+}
+
+#popup_one_heading{
+  text-align: center; 
+  margin-bottom: 15px
+}
+
+label{
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%; /* Make input fields and select element full width */
+  padding: 10px; /* Add padding for better input experience */
+  border: 1px solid #ccc; /* Add a thin border to input fields */
+  border-radius: 3px; /* Add some rounded corners */
+}
+
+select {
+  appearance: none; 
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+#appointment_confirmed{
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  position:fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%)
+}
+
+#element-top-left{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
